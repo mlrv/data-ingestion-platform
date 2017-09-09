@@ -10,6 +10,7 @@ In the config folder create the required configuration files for the mongodb dat
 
 Structure:
 
+config/db.js
 ```javascript
 module.exports = {
   url : '<DB CONNECTION STRING>',
@@ -19,6 +20,7 @@ module.exports = {
 
 and
 
+config/twilio.js
 ```javascript
 module.exports = {
     twiloNumber: '+000000000000',
